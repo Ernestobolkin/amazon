@@ -15,7 +15,8 @@ body {
   height: 135vh;
   /* border: 1px solid red; */
 }
-.shop-container{
+.shop-container {
+  position: relative;
   border-bottom: 1px solid gray;
 }
 .parent {
@@ -92,8 +93,10 @@ body {
   min-height: 658px;
   max-height: 658px;
   margin-right: 10px;
+  position: relative;
 }
 .bigPhoto .photo {
+  /* position: fixed; */
   background: url("/assets/img/hover-photos/gp6.jpg");
   background-position: cover;
   background-size: 100% 100%;
@@ -271,8 +274,10 @@ body {
 }
 .inner-box .select {
   height: 25px;
-  border: 1px solid red;
   margin-bottom: 10px;
+}
+.selector{
+
 }
 .inner-box .btn {
   font-size: 14px;
@@ -373,19 +378,19 @@ body {
   border-radius: 8px;
   margin: 10px 0 20px 0;
 }
-.new-container .black{
+.new-container .black {
   font-size: 14px;
   font-weight: 500;
   color: black;
 }
-.new-container .bigred{
+.new-container .bigred {
   display: inline-block;
   margin-right: 5rem;
 }
-.new-container i{
-font-size: 1rem;
+.new-container i {
+  font-size: 1rem;
 }
-.share{
+.share {
   margin-bottom: 14px;
 }
 .share div {
@@ -414,27 +419,27 @@ font-size: 1rem;
   width: 17px;
   height: 18px;
 }
-.other{
+.other {
   width: 240px;
   height: 92px;
   padding: 0 18px;
   border: 1px solid #d5d9d9;
   border-radius: 8px;
 }
-.other .selOnAmon{
-  margin:10px 0;
+.other .selOnAmon {
+  margin: 10px 0;
   font-weight: 700;
   font-size: 14px;
   text-align: center;
 }
-.other .simpleWork{
-margin-top: 7px;
+.other .simpleWork {
+  margin-top: 7px;
 }
-.other .bigred{
-font-size: 18px;
-margin-right: 3rem;
+.other .bigred {
+  font-size: 18px;
+  margin-right: 3rem;
 }
-.other input{
+.other input {
   width: 5rem;
   height: 20px;
   font-size: 13px;
@@ -443,17 +448,17 @@ margin-right: 3rem;
   border-radius: 12px;
   cursor: pointer;
 }
-.other input:hover{
+.other input:hover {
   background: #f7ca00;
 }
-.other p{
+.other p {
   margin: 5px 0;
   font-size: 12px;
 }
-.other .black{
+.other .black {
+  cursor: pointer;
   font-weight: 600;
 }
-.other .black:hover{
-  color: #F9A31D;
+.other .black:hover {
+  color: #f9a31d;
 }
-

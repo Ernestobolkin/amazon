@@ -8,6 +8,7 @@
 }
 /* amazon icon */
 .icon-container {
+  cursor: pointer;
   display: flex;
   align-items: center;
   padding: 2px 13px 0 13px;
@@ -32,6 +33,7 @@
 /* shipping */
 
 .shipping {
+  cursor: pointer;
   padding: 5px 0;
   font-size: 12px;
 }
@@ -60,7 +62,7 @@
 .search-container {
   display: flex;
   align-items: center;
-  /* color: #DADADA; */
+  cursor: pointer;
   color: #8b8b8b;
   padding: 0 15px;
 }
@@ -106,8 +108,11 @@
 /* end of search bar */
 
 /* flag */
+
 .flag-container {
-  margin: 25px 0 0 19px;
+  cursor: pointer;
+  transform: translate(15px,25px);
+
 }
 .flag-container .usa {
   background: url("/assets/img/rzrQQdi0aRm6Dap.png") no-repeat 0 -130px;
@@ -118,8 +123,10 @@
 
 /* account */
 .account {
+  /* border: 1px solid red; */
   transform: translateX(20px);
-  padding: 15px 10px;
+  padding: 7px 5px ;
+  cursor: pointer;
 }
 .account p {
   font-size: 12px;
@@ -130,12 +137,21 @@
 .account i {
   color: #a7acb2;
 }
+.acc-hover{
+  padding: 7px;
+  border: 1px solid rgba(255, 0, 0, 0);
+}
+.acc-hover:hover{
+  border-color: #ffffff;
+  border-radius: 2px;
+}
 /* end of account */
 
 /* order */
 .order {
+  cursor: pointer;
   transform: translateX(20px);
-  padding: 15px 10px;
+  padding: 7px 5px ;
 }
 .order p {
   font-size: 12px;
@@ -143,12 +159,22 @@
 .order h4 {
   font-size: 14px;
 }
+.order-hover{
+  padding: 7px;
+  border: 1px solid rgba(255, 0, 0, 0);
+}
+.order-hover:hover{
+  border-color: #ffffff;
+  border-radius: 2px;
+}
 /* end of order */
 
 /* cart */
 .cart {
   transform: translateX(20px);
+  display: flex;
   padding: 5px 10px;
+  cursor: pointer;
 }
 .cart .cart-img {
   background: url("/assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
@@ -157,6 +183,15 @@
   height: 28px;
 }
 .cart .cart-img {
-  /* transform: translateX(20px); */
+  transform: translateY(15px);
+}
+.cart p {
+  transform: translateX(40px);
+}
+.cart .zero {
+  transform: translate(29px, 10px);
+  font-size: 18px;
+  color: #f08805;
+  font-weight: 550;
 }
 /* end of cart */

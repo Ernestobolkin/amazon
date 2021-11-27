@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./css/navBar.css">
   <link rel="stylesheet" href="./css/navBar-2.css">
   <link rel="stylesheet" href="./css/spinner.css">
+
   <link href="//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember" rel="stylesheet"
     type="text/css" />
   <title>Amazon.com: Razer Huntsman Elite Gaming Keyboard: Fastest Keyboard Switches Ever - Clicky Optical Switches -
@@ -34,7 +35,8 @@
     </div>
     <div class="search-container">
       <p><span>All</span><i class="fas fa-caret-down"></i></p>
-      <input type="text" name="search">
+      <input type="text" name="search"
+        value="https://www.amazon.com/Razer-Huntsman-Elite-Opto-Mechanical-Multi-Functional/dp/B07DHNX18W/ref=sr_1_1_sspa?crid=1DBYGWP6NTOWY&keywords=razer+keyboard&qid=1638008880&sprefix=razer+ke%2Caps%2C308&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVUlLUlYyOE1GTURZJmVuY3J5cHRlZElkPUEwNTQwNzMzMkZUMDZJQUNHSzROWiZlbmNyeXB0ZWRBZElkPUEwMzg3MzQyVkJVMElNSUtZSksmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl#">
       <div>
         <div class="sprite"></div>
       </div>
@@ -48,19 +50,23 @@
       </div>
     </div>
     <div class="account">
-      <p>Hello, sign in</p>
-      <h4>Account & Lists <i class="fas fa-caret-down"></i></h4>
+      <div class="acc-hover">
+        <p>Hello, sign in</p>
+        <h4>Account & Lists <i class="fas fa-caret-down"></i></h4>
+      </div>
     </div>
     <div class="order">
-      <p>Returns</p>
-      <h4>& Orders</h4>
+      <div class="order-hover">
+        <p>Returns</p>
+        <h4>& Orders</h4>
+      </div>
     </div>
     <div class="cart">
       <div class="zero">0</div>
       <div class="cart-hover">
         <div class="cart-img">
-          <p>Cart</p>
         </div>
+        <p>Cart</p>
       </div>
     </div>
   </div>
@@ -99,7 +105,7 @@
     </div>
   </div>
   <div class="blackFriday-container">
-    <img src="./assets/img/Fuji_BF_ILM_1X._CB652848759_.jpg" alt="black Friday">
+    <img src="./assets/img/Fuji_BF_ILM_1X._CB652848759_.jpg" alt="black Friday" style="cursor: pointer;">
   </div>
   <!-- end of navBar and the BlackFriday pic -->
 
@@ -194,7 +200,12 @@
         <div class="deliver"><i class="fas fa-map-marker-alt"></i><span class="blue">Deliver to Israel</span></div>
         <p class="green">In Stock.</p>
         <div class="select">
-          <select name="" id=""></select>
+          <select class="selector" name="" id="">
+            <option value="">0</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+          </select>
         </div>
         <div class="btn-container1">
           <input type="button" class="addTo btn" value="Add to Cart">
@@ -202,7 +213,7 @@
         <div class="btn-container2">
           <input type="button" class="buyNow btn" value="Buy now">
         </div>
-        <div class="secure"> <i class="fas fa-shopping-bag"></i> <span class="blue">Secure transaction</span>
+        <div class="secure"> <i class="fas fa-lock"></i> <span class="blue">Secure transaction</span>
         </div>
         <div class="pac">
           <p><span class="ship">Ships from </span><span class="amazon">Amazon.com</span></p>
@@ -240,7 +251,7 @@
         <button class="addToList">Add to List</button>
       </div>
       <div class="new-container">
-        <p><span class="black">New (3) </span><span class="bigred">$129.99</span><i class="fas fa-chevron-right"></i>
+        <p><span class="black">New (3) </span><span class="bigred">$129.99</span><i class="fas fa-chevron-right" style="cursor: pointer"></i>
         </p>
       </div>
       <div class="share">
@@ -268,7 +279,8 @@
     <div class="spinner-container">
       <div class="headPart"> <span class="red">Products related to this item</span> <span class="numbers">Page 1 of
           65</span></div>
-      <div class="spon">Sponsored <div class="icon"></div></div>
+      <div class="spon">Sponsored <div class="icon"></div>
+      </div>
       <div class="cards-grid">
         <div class="card1 n">
           <div class="img"></div>
@@ -276,8 +288,11 @@
             Razer Huntsman Mini 60% Gaming Keyboard: Fastest Keyboard Switches Ever - Clicky…
           </div>
           <div class="starscontainer">
-          <div class="stars-1"></div><div class="ppl">6,096</div></div>
-          <div class="price">$79.99 <div class="prime"></div></div>
+            <div class="stars-1"></div>
+            <div class="ppl">6,096</div>
+          </div>
+          <div class="price">$79.99 <div class="prime"></div>
+          </div>
         </div>
         <div class="card2 n">
           <div class="img"></div>
@@ -285,8 +300,11 @@
             Razer BlackWidow V3 Mini HyperSpeed 65% Wireless Mechanical Gaming Keyboard:…
           </div>
           <div class="starscontainer">
-          <div class="stars-1"></div><div class="ppl">185</div></div>
-          <div class="price">$119.99 <div class="prime"></div></div>
+            <div class="stars-1"></div>
+            <div class="ppl">185</div>
+          </div>
+          <div class="price">$119.99 <div class="prime"></div>
+          </div>
         </div>
         <div class="card3 n">
           <div class="img"></div>
@@ -294,8 +312,11 @@
             Razer Huntsman V2 Analog Gaming Keyboard: Razer Analog Optical Switches…
           </div>
           <div class="starscontainer">
-          <div class="stars-2"></div><div class="ppl">8</div></div>
-          <div class="price">$139.00 <div class="prime"></div></div>
+            <div class="stars-2"></div>
+            <div class="ppl">8</div>
+          </div>
+          <div class="price">$139.00 <div class="prime"></div>
+          </div>
         </div>
         <div class="card4 n">
           <div class="img"></div>
@@ -303,8 +324,11 @@
             Glorious GMMK Modular Mechanical Gaming Keyboard - TENKEYLESS (87 Key) - RGB LED Ba...
           </div>
           <div class="starscontainer">
-          <div class="stars-1"></div><div class="ppl">1,302</div></div>
-          <div class="price">$199.99<div class="prime"></div></div>
+            <div class="stars-1"></div>
+            <div class="ppl">1,302</div>
+          </div>
+          <div class="price">$199.99<div class="prime"></div>
+          </div>
         </div>
         <div class="card5 n">
           <div class="img"></div>
@@ -312,8 +336,11 @@
             Razer Huntsman V2 Analog Gaming Keyboard: Razer Analog Optical Switches…
           </div>
           <div class="starscontainer">
-          <div class="stars-2"></div><div class="ppl">23</div></div>
-          <div class="price">$159.99<div class="prime"></div></div>
+            <div class="stars-2"></div>
+            <div class="ppl">23</div>
+          </div>
+          <div class="price">$159.99<div class="prime"></div>
+          </div>
         </div>
         <div class="card6 n">
           <div class="img"></div>
@@ -321,8 +348,11 @@
             Razer Atheris - Ambidextrous Bluetooth Wireless Portable Gaming-Grade Mouse…
           </div>
           <div class="starscontainer">
-          <div class="stars-1"></div><div class="ppl">314</div></div>
-          <div class="price">$23.47<div class="prime"></div></div>
+            <div class="stars-1"></div>
+            <div class="ppl">314</div>
+          </div>
+          <div class="price">$23.47<div class="prime"></div>
+          </div>
         </div>
         <div class="card7 n">
           <div class="img"></div>
@@ -330,13 +360,17 @@
             Razer Abyssus Essential: True 7,200 DPI Optical Sensor - 3 Hyperesponse Buttons - P...
           </div>
           <div class="starscontainer">
-          <div class="stars-1"></div><div class="ppl">85</div></div>
-          <div class="price">$34.99<div class="prime"></div></div>
+            <div class="stars-1"></div>
+            <div class="ppl">85</div>
+          </div>
+          <div class="price">$34.99<div class="prime"></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
+  <script src="./Js/order.js"></script>
 </body>
 
 </html>
