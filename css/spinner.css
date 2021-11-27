@@ -1,0 +1,148 @@
+.spiner {
+  display: flex;
+  margin: 17px auto 0 auto;
+  min-width: 1000px;
+  max-width: 1500px;
+  height: 395px;
+  border-bottom: 1px solid gray;
+}
+.headPart {
+  display: flex;
+  justify-content: space-between;
+  width: 1500px;
+  margin-bottom: 15px;
+}
+.headPart .red {
+  font-size: 16px;
+  font-weight: 800;
+  color: #cc6600;
+}
+.spiner .spon {
+  display: flex;
+  font-size: 12px;
+}
+.spiner .icon {
+background: url("/assets/img/3-fm1Jbg4IHlyhq.png")no-repeat -412px -29px;
+width: 18px;
+height: 18px;
+}
+.spiner .stars-1 {
+  background: url("/assets/img/3-fm1Jbg4IHlyhq.png") no-repeat -84px -28px;
+  width: 80px;
+  height: 15px;
+}
+.spiner .stars-2 {
+  background: url("/assets/img/3-fm1Jbg4IHlyhq.png") no-repeat -84px -8px;
+  width: 80px;
+  height: 15px;
+}
+.spiner .text {
+  color: #007185;
+  cursor: pointer;
+}
+.spiner .text:hover {
+  text-decoration: underline;
+  color: #c7511e;
+}
+.spiner .price{
+  font-weight: 400;
+  font-size: 18px;
+  color: #b12704;
+  display: flex;
+  margin: 5px 0;
+}
+.starscontainer {
+display: flex;
+}
+.starscontainer .ppl{
+  margin-left: 5px;
+}
+.prime{
+  background: url("/assets/img/E6vgqiIirWgGb3f.png")no-repeat -184px -182px;
+  width: 54px;
+	height: 16px;
+  margin-left: 5px;
+}
+
+.spiner .cards-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-size: 14px;
+  margin: 20px 0 0 45px;
+}
+.spiner .n {
+  width: min-content;
+}
+.spiner .card1 {
+  grid-area: 1 / 7 / 2 / 8;
+}
+.card1 .img {
+  background: url("/assets/img/spinner-img/img1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+}
+.spiner .card2 {
+  grid-area: 1 / 6 / 2 / 7;
+}
+.card2 .img {
+  background: url("/assets/img/spinner-img/img2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+}
+.spiner .card3 {
+  grid-area: 1 / 5 / 2 / 6;
+}
+.card3 .img {
+  background: url("/assets/img/spinner-img/img3.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+}
+.spiner .card4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.card4 .img {
+  background: url("/assets/img/spinner-img/img4.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+}
+.spiner .card5 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.card5 .img {
+  background: url("/assets/img/spinner-img/img5.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+}
+.spiner .card6 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.card6 .img {
+  background: url("/assets/img/spinner-img/img6.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+}
+.spiner .card7 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.card7 .img {
+  background: url("/assets/img/spinner-img/img7.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+}

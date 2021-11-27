@@ -1,0 +1,162 @@
+.nav-1 {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  background-color: #131921;
+  top: 0px;
+  color: white;
+}
+/* amazon icon */
+.icon-container {
+  display: flex;
+  align-items: center;
+  padding: 2px 13px 0 13px;
+}
+.icon-container .icon {
+  background: url("/assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat 3.937% 12.114%;
+  width: 96px;
+  height: 29px;
+  padding: 0 15px;
+}
+.icon-container .hover-container {
+  padding: 8px;
+  border: 1px solid rgba(255, 0, 0, 0);
+}
+.icon-container .hover-container:hover {
+  border-color: #ffffff;
+  border-radius: 2px;
+}
+/* end of amazon icon */
+
+/* shipping */
+
+.shipping {
+  padding: 5px 0;
+  font-size: 12px;
+}
+.shipping p {
+  padding-left: 16px;
+  color: #dadada;
+}
+.shipping span {
+  font-size: 15px;
+}
+.shipping i {
+  font-size: 18px;
+}
+.shipping-hover {
+  padding: 7px;
+  border: 1px solid rgba(255, 0, 0, 0);
+}
+.shipping-hover:hover {
+  border-color: #ffffff;
+  border-radius: 2px;
+}
+
+/* end of shipping */
+
+/* search bar */
+.search-container {
+  display: flex;
+  align-items: center;
+  /* color: #DADADA; */
+  color: #8b8b8b;
+  padding: 0 15px;
+}
+.search-container input {
+  min-width: 61.8vw;
+  height: 41px;
+}
+.search-container p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: #dadada;
+  border-radius: 5px 0 0 5px;
+  width: 45px;
+  height: 40px;
+  color: black;
+}
+.search-container span {
+  padding-right: 5px;
+  font-size: 12px;
+}
+.search-container div {
+  width: 45px;
+  height: 39.7px;
+  background-color: #f3a847;
+  display: flex;
+  margin: auto;
+  border-radius: 0 5px 5px 0;
+}
+.search-container .sprite {
+  background: url("/assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat 1.5% 68%;
+  width: 35px;
+  height: 35px;
+}
+.search-container div i {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+}
+/* end of search bar */
+
+/* flag */
+.flag-container {
+  margin: 25px 0 0 19px;
+}
+.flag-container .usa {
+  background: url("/assets/img/rzrQQdi0aRm6Dap.png") no-repeat 0 -130px;
+  width: 25px;
+  height: 18px;
+}
+/* end of flag */
+
+/* account */
+.account {
+  transform: translateX(20px);
+  padding: 15px 10px;
+}
+.account p {
+  font-size: 12px;
+}
+.account h4 {
+  font-size: 14px;
+}
+.account i {
+  color: #a7acb2;
+}
+/* end of account */
+
+/* order */
+.order {
+  transform: translateX(20px);
+  padding: 15px 10px;
+}
+.order p {
+  font-size: 12px;
+}
+.order h4 {
+  font-size: 14px;
+}
+/* end of order */
+
+/* cart */
+.cart {
+  transform: translateX(20px);
+  padding: 5px 10px;
+}
+.cart .cart-img {
+  background: url("/assets/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat 70.55% 79.858%;
+  width: 41px;
+  height: 28px;
+}
+.cart .cart-img {
+  /* transform: translateX(20px); */
+}
+/* end of cart */
