@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./css/navBar.css">
   <link rel="stylesheet" href="./css/navBar-2.css">
   <link rel="stylesheet" href="./css/spinner.css">
-
+  <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width:768px)">
   <link href="//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember" rel="stylesheet"
     type="text/css" />
   <title>Amazon.com: Razer Huntsman Elite Gaming Keyboard: Fastest Keyboard Switches Ever - Clicky Optical Switches -
@@ -36,7 +36,8 @@
     <div class="search-container">
       <p><span>All</span><i class="fas fa-caret-down"></i></p>
       <input type="text" name="search"
-        value="https://www.amazon.com/Razer-Huntsman-Elite-Opto-Mechanical-Multi-Functional/dp/B07DHNX18W/ref=sr_1_1_sspa?crid=1DBYGWP6NTOWY&keywords=razer+keyboard&qid=1638008880&sprefix=razer+ke%2Caps%2C308&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVUlLUlYyOE1GTURZJmVuY3J5cHRlZElkPUEwNTQwNzMzMkZUMDZJQUNHSzROWiZlbmNyeXB0ZWRBZElkPUEwMzg3MzQyVkJVMElNSUtZSksmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl#">
+        value="">
+        <!-- https://www.amazon.com/Razer-Huntsman-Elite-Opto-Mechanical-Multi-Functional/dp/B07DHNX18W/ref=sr_1_1_sspa?crid=1DBYGWP6NTOWY&keywords=razer+keyboard&qid=1638008880&sprefix=razer+ke%2Caps%2C308&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVUlLUlYyOE1GTURZJmVuY3J5cHRlZElkPUEwNTQwNzMzMkZUMDZJQUNHSzROWiZlbmNyeXB0ZWRBZElkPUEwMzg3MzQyVkJVMElNSUtZSksmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl# -->
       <div>
         <div class="sprite"></div>
       </div>
@@ -104,8 +105,10 @@
       </div>
     </div>
   </div>
+  <!-- black friday -->
   <div class="blackFriday-container">
-    <img src="./assets/img/Fuji_BF_ILM_1X._CB652848759_.jpg" alt="black Friday" style="cursor: pointer;">
+    <img class="img1" src="./assets/img/Fuji_BF_ILM_1X._CB652848759_.jpg" style="cursor: pointer;">
+    <!-- <img class="img2" src="/assets/img/mobile/Karu_CM_ILM_en_1X._CB651321467_.jpg" style="visibility: hidden;"> -->
   </div>
   <!-- end of navBar and the BlackFriday pic -->
 
@@ -200,11 +203,11 @@
         <div class="deliver"><i class="fas fa-map-marker-alt"></i><span class="blue">Deliver to Israel</span></div>
         <p class="green">In Stock.</p>
         <div class="select">
-          <select class="selector" name="" id="">
-            <option value="">0</option>
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
+          <select class="selector" name="" id="selector">
+            <option value="0">0</option>
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
           </select>
         </div>
         <div class="btn-container1">
