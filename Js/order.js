@@ -1,19 +1,3 @@
-// selector testing
-const qty = document.querySelector("select");
-const op = document.querySelector("option");
-
-
-  let selectval = document.querySelector("select").value;
-  console.log(selectval);
-// function getSelectOp(selectval){
-//   let opt;
-//   for(let i = 0; )
-// }
-
-// console.log(qty.options[qty.selectedIndex]);
-op.addEventListener("click", () => {
-  console.log("working")
-});
 const qty = document.querySelector(".selector");
 
 
