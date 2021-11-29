@@ -12,7 +12,6 @@ let count = document.querySelector(".zero");
 const inc = document.querySelector(".addTo");
 inc.addEventListener("click", () => {
   if (count.textContent < 9) {
-    count.textContent++;
   // count.textContent = a;
     count.textContent++
     console.log(count);
